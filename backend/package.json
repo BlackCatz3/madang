@@ -1,0 +1,22 @@
+{
+  "name": "food-ordering-backend",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node-dev index.ts",
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@supabase/supabase-js": "latest",
+    "cors": "latest",
+    "dotenv": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "ts-node-dev": "latest",
+    "@types/express": "latest",
+    "@types/node": "latest"
+  }
+}

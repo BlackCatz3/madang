@@ -1,0 +1,33 @@
+{
+  "name": "food-ordering-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "swr": "latest",
+    "tailwindcss": "latest",
+    "postcss": "latest",
+    "autoprefixer": "latest",
+    "class-variance-authority": "latest",
+    "tailwind-merge": "latest",
+    "tailwindcss-animate": "latest",
+    "lucide-react": "latest",
+    "react-hook-form": "latest",
+    "@radix-ui/react-slot": "latest",
+    "clsx": "latest",
+    "framer-motion": "latest",
+    "@supabase/supabase-js": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "@types/react": "latest",
+    "@types/node": "latest"
+  }
+}
